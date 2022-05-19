@@ -7,165 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="C:\Users\arthu\Desktop\visual\pocafolha\estilo\estilo.css">
     <title>Home | Pocafolha itajaí</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        .paicontainer a {
-            color: rgba(0, 0, 0, 0.767);
-            padding: 5px 10px;
-        }
-        
-        .redes a {
-            color: rgba(0, 0, 0, 0.767);
-            padding: 5px 10px;
-        }
-        
-        .paicontainer a:hover {
-            color: black;
-        }
-        
-        .redes a:hover {
-            color: black;
-        }
-        
-        body {
-            margin: 0;
-            background-image: linear-gradient(rgb(255, 255, 255), rgb(192, 240, 148));
-        }
-        
-        .logo {
-            opacity: 1;
-        }
-        
-        .header {
-            position: sticky;
-            top: 0;
-            background-color: rgba(238, 238, 238, 0.856);
-            display: flex;
-            justify-content: center;
-        }
-        
-        .conteudo {
-            background-color: rgba(223, 223, 223, 0.096);
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        
-        .icone {
-            width: max-content;
-            background-color: rgba(238, 238, 238, 0);
-            border-radius: 2%;
-        }
-        
-        .iconedireita {
-            background-color: rgba(104, 253, 111, 0);
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: center;
-            width: max-content;
-        }
-        
-        .inicioa {
-            display: block;
-            background-color: dodgerblue;
-            border-radius: 10%;
-            align-self: center;
-            padding: 4%;
-            color: white;
-        }
-        
-        .iniciob {
-            display: block;
-            background-color: rgba(43, 198, 226, 0);
-            color: black;
-            align-self: center;
-            padding: 4%;
-        }
-        
-        .iniciob:hover {
-            background-color: #88888852;
-            border-radius: 10%;
-        }
-        
-        .icone:hover {
-            background-color: rgba(196, 196, 196, 0.637);
-        }
-        
-        .bannerpf {
-            max-width: 85%;
-            margin: 1%;
-            border-radius: 1%;
-        }
-        
-        .tamanhoimagem {
-            width: 250px;
-        }
-        
-        .container {
-            border: 1px solid rgba(136, 255, 0, 0);
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-        
-        .subcontainer {
-            background-color: aqua;
-            box-shadow: 1px 1px 10px #888888;
-            font-size: 22px;
-            width: 260px;
-            display: flex;
-        }
-        
-        .quemsomosnos {
-            align-self: center;
-            font-size: 32px;
-            margin-inline: 435px;
-        }
-        
-        .redes {
-            border: 1px solid red;
-            margin-inline: 100px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            padding: 1%;
-        }
-        
-        .container2 {
-            border: 1px solid rgb(4, 0, 255);
-            background-color: rgb(255, 255, 255);
-            margin: 100px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-        
-        .paicontainer {
-            background-color: rgb(245, 245, 245);
-            margin-inline: 100px;
-            padding: 1%;
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
     <div class="header">
+        <div class="icone">
+            <a href="index.html"> <img src="..\pocfol imagens\lg1transp.png" height="100px" class="logo1"> </a>
+        </div>
         <div class="conteudo">
-            <div class="icone">
-                <a href="index.html"> <img src="..\pocfol imagens\lg1transp.png" height="100px" class="logo1"> </a>
-            </div>
             <div class="iconedireita">
                 <a class="inicioa" href="index.html">Início</a>
                 <a class="iniciob" a href="sobre.html">Sobre</a>
@@ -175,23 +25,36 @@
     </div>
     <center><img class="bannerpf" src="..\pocfol imagens\bannerpf.png"></center><br>
     <div class="container2">
-        <p>Entrega de flores em até 3h para Itajaí</p>
-        <p>Desconto para clientes no sul do brasil</p>
-        <p>Produtos sustentáveis</p>
+        <div class="subcontainer2">
+            <img class="tamanhoimagem2" src="..\pocfol imagens\planta2.WEBP">
+            <p>Entrega de flores em até 3h para Itajaí</p>
+            <i class="material-icons">cloud</i>
+        </div>
+        <div class="subcontainer2">
+            <img class="tamanhoimagem2" src="..\pocfol imagens\planta6.WEBP">
+            <p>Parcelamento em até 12x nas compras acima de R$200</p>
+        </div>
+        <div class="subcontainer2">
+            <img class="tamanhoimagem2" src="..\pocfol imagens\planta7.WEBP">
+            <p>Produtos veganos e sustentáveis</p>
+        </div>
     </div>
     <div class="paicontainer">
+        <div class="quemsomosnos">
+            <p>Conheça nossos produtos</p>
+        </div>
         <div class="container">
             <div class="subcontainer">
-                <a href="terrarios.html"><img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\terrario1.png"></a>
-                <p>Terrários e decorações</p>
+                <img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\terrario1.png">
+                <a href="terrarios.html">Terrários e decorações</a>
             </div>
             <div class="subcontainer">
-                <a href="flores.html"><img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\flor1.png"></a>
-                <p>Flores e plantas</p>
+                <img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\flor1.png">
+                <a href="floresplantas.html">Flores e plantas</a>
             </div>
             <div class="subcontainer">
-                <a href="outros.html"><img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\cha1.png"></a>
-                <p>Chás e outros produtos</p>
+                <img class="tamanhoimagem" src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\cha1.png">
+                <a href="outrosprodutos.html">Chás e outros produtos</a>
             </div>
         </div>
         <div class="quemsomosnos">
