@@ -6,34 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terrários | Pocafolha Itajaí</title>
+    <link rel="stylesheet" type="text/css" href="..\estilo\estilo.css">
+    <script src="https://kit.fontawesome.com/f2de735917.js" crossorigin="anonymous"></script>
     <style>
-        body {
-            margin: 0;
-            background-image: linear-gradient(rgb(255, 255, 255), rgb(223, 248, 200));
-        }
-        
-        .bannr {
-            position: sticky;
-            top: 0;
-            padding: auto;
-            text-align: center;
-            background-color: rgb(238, 238, 238);
-            opacity: 90%;
-            width: auto;
-        }
-        
-        .conteudo {
-            margin: auto;
-            width: 975px;
-            padding: 10px;
-        }
-        
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603);
-            max-width: 300px;
-            margin: auto;
             text-align: center;
             font-family: arial;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         
         .price {
@@ -51,36 +34,78 @@
             cursor: pointer;
             width: 100%;
             font-size: 18px;
+            font-style: italic;
         }
         
         .card button:hover {
             opacity: 0.7;
         }
-    </style>
+        
+        #terrariomain {
+            background-color: (245, 245, 245);
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            margin-inline: 20%;
+            flex-flow: row wrap;
+            gap: 40px 10px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="bannr">
+    <div class="header">
+        <div class="icone">
+            <a href="index.html"> <img src="..\pocfol imagens\lg1transp.png" height="100px" class="logo1"> </a>
+        </div>
         <div class="conteudo">
-            <a href="index.html"> <img src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\lg1transp.png" height="100px" class="logo1"> </a>
+            <div class="iconedireita">
+                <a class="inicioa" href="index.html">Início</a>
+                <a class="iniciob" a href="sobre.html">Sobre</a>
+                <a class="iniciob" href="sobre.html">Contato</a>
+            </div>
         </div>
     </div>
-
-    <div class="card">
-        <img src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\terrario1.png" alt="terrario1" style="width:100%">
-        <h1>Terrário decorativo</h1>
-        <p class="price">R$49,90</p>
-        <p>Terrário simples com pedrinhas e plantas</p>
-        <p><button>Add to Cart</button></p>
+    <div class="paicontainer" style="margin-top: 4%; padding: 1%;">
+        <div id="terrariomain">
+            <div class="card">
+                <img src="..\pocfol imagens\terrario1.png" style="width:100%">
+                <h1>Terrário decorativo aberto</h1>
+                <p class="price">R$49,90</p>
+                <p>Terrário simples com pedrinhas e plantas</p>
+                <button>Produto disponível em breve</button>
+            </div>
+            <div class="card">
+                <img src="..\pocfol imagens\terrariofechado.jpeg" style="width:100%">
+                <h1>Terrário fechado</h1>
+                <p class="price">R$129,90</p>
+                <p>Terrário fechado autossustentável com plantas vivas</p>
+                <button>Produto disponível em breve</button>
+            </div>
+            <div class="card">
+                <img src="..\pocfol imagens\jardimnopote.jpg" style="width:100%">
+                <h1>Terrário mini-ilha</h1>
+                <p class="price">R$99,90</p>
+                <p>Terrário decorativo esférico</p>
+                <button>Produto disponível em breve</button>
+            </div>
+            <div class="card">
+                <img src="..\pocfol imagens\baciacacto.jpeg" style="width:100%">
+                <h1>Terrário deserto</h1>
+                <p class="price">R$59,90</p>
+                <p>Terrário simples com cactos e pedras arenosas</p>
+                <button>Produto disponível em breve</button>
+            </div>
+        </div>
     </div>
-    <div class="card">
-        <img src="C:\Users\arthu\Desktop\visual\pocafolha\pocfol imagens\terrario1.png" alt="terrario1" style="width:100%">
-        <h1>Terrário decorativo</h1>
-        <p class="price">R$49,90</p>
-        <p>Terrário simples com pedrinhas e ew</p>
-        <p><button>Add to Cart</button></p>
+    <div class="redes">
+        <a><i class="fa-brands fa-instagram"></i>instagram</a>
+        <a><i class="fa-brands fa-pinterest"></i>pinterest</a>
+        <a><i class="fa-brands fa-facebook"></i>facebook</a>
+        <a><i class="fa-brands fa-twitter"></i>twitter</a>
     </div>
+    <p>Copyright 2022 por Arthur Sá. Todos os direitos reservados</p>
 </body>
 
 </html>
