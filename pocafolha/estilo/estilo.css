@@ -97,6 +97,28 @@ body {
     border-radius: 1%;
 }
 
+.categorias {
+    margin-inline: 330px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    gap: 70px;
+    padding: 10px;
+    border-top: 1px solid rgb(189, 189, 189);
+    border-bottom: 1px solid rgb(189, 189, 189);
+    justify-content: center;
+}
+
+.categorias a {
+    color: #575757;
+}
+
+.categorias a:hover {
+    color: black;
+}
+
 .tamanhoimagem {
     width: 290px;
 }
@@ -175,9 +197,11 @@ body {
 }
 
 .paicontainer {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
     margin-inline: 100px;
     font-family: arial;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 i {
