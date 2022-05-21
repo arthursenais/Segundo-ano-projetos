@@ -26,16 +26,15 @@ a {
 
 body {
     margin: 0;
-    background-image: linear-gradient(rgb(245, 255, 246), rgb(240, 253, 228));
+    background-color: rgb(250, 255, 240);
 }
 
 .header {
     top: 0;
-    background-color: rgba(238, 238, 238, 0.856);
+    background-color: rgb(238, 238, 238);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 63%;
 }
 
 .conteudo {
@@ -45,13 +44,13 @@ body {
     justify-content: flex-end;
     margin-right: 2%;
     padding: 5px;
+    font-family: montserrat;
 }
 
 .icone {
     background-color: rgba(238, 238, 238, 0);
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-left: 5%;
 }
 
 .icone:hover {
@@ -63,27 +62,24 @@ body {
     background-color: rgba(104, 253, 111, 0);
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
     width: max-content;
 }
 
 .inicioa {
-    display: block;
     background-color: dodgerblue;
-    border-radius: 10%;
+    border-radius: 6%;
     align-self: center;
     padding: 4%;
     color: white;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .iniciob {
-    display: block;
     background-color: rgba(43, 198, 226, 0);
     color: black;
     align-self: center;
     padding: 4%;
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .iniciob:hover {
@@ -92,31 +88,35 @@ body {
 }
 
 .bannerpf {
-    max-width: 85%;
-    margin: 1%;
-    border-radius: 1%;
+    box-shadow: 10px 4px 20px black;
+    max-width: 100%;
+    margin-inline: 0;
 }
 
 .categorias {
-    margin-inline: 330px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
     font-size: 25px;
-    gap: 70px;
     padding: 10px;
     border-top: 1px solid rgb(189, 189, 189);
     border-bottom: 1px solid rgb(189, 189, 189);
-    justify-content: center;
+    text-align: center;
 }
 
 .categorias a {
     color: #575757;
+    max-width: 20%;
 }
 
 .categorias a:hover {
     color: black;
+}
+
+.categorias p {
+    margin: 1%;
 }
 
 .tamanhoimagem {
@@ -132,6 +132,13 @@ body {
     font-size: 32px;
     text-align: center;
     color: #575757;
+    margin-bottom: 0;
+}
+
+.quemsomosnos p {
+    color: rgb(0, 0, 0);
+    font-family: montserrat;
+    font-weight: bolder;
 }
 
 .redes {
@@ -142,6 +149,11 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: montserrat;
+}
+
+.redes a {
+    cursor: pointer
 }
 
 .container {
@@ -149,6 +161,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 100px;
+}
+
+.container a {
+    padding: 0;
 }
 
 .subcontainer {
@@ -160,28 +178,34 @@ body {
     text-align: center;
     padding-bottom: 1%;
     justify-content: center;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
 }
 
 .subcontainer a {
     color: white;
+    font-family: montserrat;
+    font-weight: 300;
 }
 
 .subcontainer a:hover {
-    color: rgba(255, 255, 255, 0.637);
+    color: rgb(255, 255, 255);
 }
 
 .subcontainer:hover {
-    box-shadow: 1px 1px 10px #888888;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
 }
 
 .container2 {
     border: 1px solid rgba(4, 0, 255, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 255, 240);
     margin-inline: 100px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: montserrat;
 }
 
 .subcontainer2 {
@@ -197,13 +221,23 @@ body {
 }
 
 .paicontainer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(250, 255, 240);
     margin-inline: 100px;
-    font-family: arial;
-    padding-top: 1%;
+    font-family: montserrat;
     padding-bottom: 1%;
 }
 
 i {
     padding-inline: 10px;
+}
+
+#terrariomain {
+    background-color: (245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-inline: 10%;
+    flex-flow: row wrap;
+    gap: 40px 10px;
 }
