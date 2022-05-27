@@ -6,6 +6,11 @@ a {
     text-decoration: none;
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 .paicontainer a {
     color: rgba(0, 0, 0, 0.767);
     padding: 5px 10px;
