@@ -6,19 +6,16 @@ a {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
-}
-
 .paicontainer a {
     color: rgba(0, 0, 0, 0.767);
     padding: 5px 10px;
+    transition: 0.3s;
 }
 
 .redes a {
     color: rgba(0, 0, 0, 0.767);
     padding: 5px 10px;
+    transition: 0.3s;
 }
 
 .paicontainer a:hover {
@@ -56,6 +53,7 @@ body {
     background-color: rgba(238, 238, 238, 0);
     text-align: center;
     margin-left: 5%;
+    transition: 0.3s;
 }
 
 .icone:hover {
@@ -77,6 +75,12 @@ body {
     padding: 4%;
     color: white;
     font-size: 27px;
+    transition: 0.3s;
+}
+
+.inicioa:hover {
+    background-color: rgb(110, 183, 255);
+    border-radius: 100px;
 }
 
 .iniciob {
@@ -85,11 +89,12 @@ body {
     align-self: center;
     padding: 4%;
     font-size: 27px;
+    transition: 0.3s;
 }
 
 .iniciob:hover {
     background-color: #88888852;
-    border-radius: 10%;
+    border-radius: 100px;
 }
 
 .bannerpf {
@@ -114,6 +119,7 @@ body {
 .categorias a {
     color: #575757;
     max-width: 20%;
+    transition: 0.3s;
 }
 
 .categorias a:hover {
