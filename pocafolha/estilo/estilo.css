@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
 }
